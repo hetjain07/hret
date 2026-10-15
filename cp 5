@@ -1,0 +1,71 @@
+/*#include <stdio.h>
+
+int main() {
+    char str[] = "Hello";
+    for (int i = 0; str[i] != '\0'; i++) 
+    {
+        printf("%c\n", str[i]);
+    }
+
+}*/
+
+
+
+/*#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char str[] = "Hello";
+    int len = strlen(str);
+    for (int i = len - 1; i >= 0; i--) 
+    {
+        printf("%c\n", str[i]);
+    }
+
+}*/
+
+/*#include <stdio.h>
+int main()
+{
+    char source[] = "Hello Class";
+    char destination[50]; 
+    int i;
+    for (i = 0; source[i] != '\0'; i++)
+    {
+        destination[i] = source[i];
+    }
+    destination[i] = '\0'; // Append the null terminator at the end
+    printf("Source: %s\n", source);
+    printf("Destination: %s\n", destination); 
+    }*/
+
+
+
+/*#include <stdio.h>
+#include <ctype.h>
+
+int main() 
+{
+    char str[] = "Hello World!";
+    for (int i = 0; str[i] != '\0'; i++)
+    {
+        str[i] = toupper((unsigned char)str[i]);
+    } 
+    printf("Uppercase string: %s\n", str);
+}*/
+
+
+
+#include <stdio.h>
+
+/*int main()
+{
+    char str[] = "Hello Class";
+    int length = 0;
+    while (str[length] != '\0')
+    {
+     length++;
+    }
+    printf("String: \"%s\"\n", str);
+    printf("Length of the string: %d\n", length);
+}*/
